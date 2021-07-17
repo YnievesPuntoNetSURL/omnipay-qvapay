@@ -1,0 +1,31 @@
+{
+    "name": "ynievesdotnetteam/omnipay-qvapay",
+    "type": "library",
+    "description": "QvaPay gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "qvapay",
+        "purchase"
+    ],
+    "homepage": "https://github.com/ynievesdotnetteam/omnipay-qvapay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoinier Hernández Nieves",
+            "email": "me@ynieves.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\QvaPay\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3"
+    }
+}
