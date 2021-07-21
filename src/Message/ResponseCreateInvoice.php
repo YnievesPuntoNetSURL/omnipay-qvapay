@@ -15,6 +15,25 @@ class ResponseCreateInvoice extends AbstractResponse
     {
         return $this->data;
     }
+
+    public function getRedirectMethod()
+    {
+        return 'GET';
+    }
+
+    public function isRedirect()
+    {
+        return isset($this->data->signedUrl);
+    }
+
+    public function getRedirectUrl()
+    {
+        if ($this->isRedirect()) {
+            return $this->data->signedUrl;
+        }
+
+        return null;
+    }
 }
 
 ?>
