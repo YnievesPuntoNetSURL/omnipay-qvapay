@@ -24,10 +24,10 @@
     },
     "require": {
         "omnipay/common": "^3",
-        "php-http/guzzle6-adapter": "~2.0"
+        "php-http/guzzle7-adapter": "~1.0"
     },
     "require-dev": {
-        "omnipay/tests": "^3",
+        "omnipay/tests": "^4",
         "squizlabs/php_codesniffer": "^3"
     },
     "prefer-stable": true
