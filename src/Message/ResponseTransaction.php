@@ -11,7 +11,7 @@ class ResponseTransaction extends AbstractResponse
         return isset($this->data);
     }
 
-    public function getTransactions()
+    public function getTransaction()
     {
         return $this->data;
     }
