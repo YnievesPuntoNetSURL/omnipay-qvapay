@@ -1,5 +1,5 @@
 {
-    "name": "ynievesdotnetteam/omnipay-qvapay",
+    "name": "ynievespuntonetsurl/omnipay-qvapay",
     "type": "library",
     "description": "QvaPay gateway for Omnipay payment processing library",
     "keywords": [
@@ -11,12 +11,12 @@
         "qvapay",
         "purchase"
     ],
-    "homepage": "https://github.com/ynievesdotnetteam/omnipay-qvapay",
+    "homepage": "https://github.com/ynievespuntonetsurl/omnipay-qvapay",
     "license": "MIT",
     "authors": [
         {
-            "name": "Yoinier Hernández Nieves",
-            "email": "me@ynieves.net"
+            "name": "YnievesPuntoNet S.U.R.L",
+            "email": "ynieves@ynieves.net"
         }
     ],
     "autoload": {
