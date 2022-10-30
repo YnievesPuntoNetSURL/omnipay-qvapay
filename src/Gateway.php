@@ -11,16 +11,6 @@ class Gateway extends AbstractGateway
     {
         return 'QvaPay';
     }
-
-    public function getTestMode()
-    {
-        return $this->getParameter('testMode');
-    }
-
-    public function setTestMode($value)
-    {
-        return $this->setParameter('testMode', $value);
-    }
     
     public function getAppID()
     {
@@ -40,16 +30,6 @@ class Gateway extends AbstractGateway
     public function setAppSecret($value)
     {
         return $this->setParameter('app_secret', $value);
-    }
-
-    public function getGrantType()
-    {
-        return $this->getParameter('grant_type');
-    }
-
-    public function setGrantType($value)
-    {
-        return $this->setParameter('grant_type', $value);
     }
 
     public function setAccessToken($value)

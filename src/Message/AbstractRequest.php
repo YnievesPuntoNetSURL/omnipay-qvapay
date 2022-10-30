@@ -4,8 +4,7 @@ namespace Omnipay\QvaPay\Message;
 
 abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 {
-    protected $liveEndpoint = 'https://qvapay.com/api/v1/';
-    protected $testEndpoint = 'https://stage.qvapay.com/api/v1/';
+    protected $endpoint = 'https://qvapay.com/api/v1/';
 
     public function getData()
     {
@@ -51,6 +50,26 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
         return $this->getParameter('access_token');
     }
 
+    public function getAppID()
+    {
+        return $this->getParameter('app_id');
+    }
+
+    public function setAppID($value)
+    {
+        return $this->setParameter('app_id', $value);
+    }
+
+    public function getAppSecret()
+    {
+        return $this->getParameter('app_secret');
+    }
+
+    public function setAppSecret($value)
+    {
+        return $this->setParameter('app_secret', $value);
+    }
+    
     public function getCustomer()
     {
         return $this->getParameter('customer');
@@ -61,9 +80,19 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
         return $this->setParameter('customer', $value);
     }
 
-    protected function getEndpoint()
+    protected function getEndpoint($endpoint = '')
     {
-        return $this->getTestMode() ? $this->testEndpoint : $this->liveEndpoint;
+        return $this->endpoint . $endpoint;
+    }
+
+    public function getGrantType()
+    {
+        return $this->getParameter('grant_type');
+    }
+
+    public function setGrantType($value)
+    {
+        return $this->setParameter('grant_type', $value);
     }
 
     public function toJSON($data, $options = 0)

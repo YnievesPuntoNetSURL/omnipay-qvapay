@@ -24,7 +24,8 @@
     },
     "require": {
         "omnipay/common": "^3",
-        "ynievespuntonetsurl/qvapay-sdk-php": "^1.0"
+        "php-http/guzzle6-adapter": "*",
+        "ext-json": "*"
     },
     "require-dev": {
         "omnipay/tests": "^4",
