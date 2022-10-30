@@ -4,7 +4,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ynievespuntonetsurl/omnipay-qvapay.svg?style=flat-square)](https://packagist.org/packages/ynievespuntonetsurl/omnipay-qvapay)
 [![Build Status](https://img.shields.io/travis/ynievespuntonetsurl/omnipay-qvapay/master.svg?style=flat-square)](https://travis-ci.org/ynievespuntonetsurl/omnipay-qvapay)
-[![Quality Score](https://img.shields.io/scrutinizer/g/ynievespuntonetsurl/omnipay-qvapay.svg?style=flat-square)](https://scrutinizer-ci.com/g/ynievespuntonetsurl/omnipay-qvapay)
 [![Total Downloads](https://img.shields.io/packagist/dt/ynievespuntonetsurl/omnipay-qvapay.svg?style=flat-square)](https://packagist.org/packages/ynievespuntonetsurl/omnipay-qvapay)
 
 **QvaPay** driver for the Omnipay PHP payment processing library
