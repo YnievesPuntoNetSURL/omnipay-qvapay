@@ -1,7 +1,13 @@
 # Omnipay: QvaPay
 
+![Banner](https://banners.beyondco.de/Omnipay%20QvaPay.png?theme=dark&packageManager=composer+require&packageName=ynievespuntonetsurl%2Fomnipay-qvapay&pattern=architect&style=style_2&description=QvaPay+driver+for+the+Omnipay+PHP+payment+processing+library.&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg&widths=auto)
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ynievespuntonetsurl/omnipay-qvapay.svg?style=flat-square)](https://packagist.org/packages/ynievespuntonetsurl/omnipay-qvapay)
+[![Build Status](https://img.shields.io/travis/ynievespuntonetsurl/omnipay-qvapay/master.svg?style=flat-square)](https://travis-ci.org/ynievespuntonetsurl/omnipay-qvapay)
+[![Quality Score](https://img.shields.io/scrutinizer/g/ynievespuntonetsurl/omnipay-qvapay.svg?style=flat-square)](https://scrutinizer-ci.com/g/ynievespuntonetsurl/omnipay-qvapay)
+[![Total Downloads](https://img.shields.io/packagist/dt/ynievespuntonetsurl/omnipay-qvapay.svg?style=flat-square)](https://packagist.org/packages/ynievespuntonetsurl/omnipay-qvapay)
+
 **QvaPay** driver for the Omnipay PHP payment processing library
-![Banner](https://banners.beyondco.de/Omnipay%20QvaPay.png?theme=dark&packageManager=composer+require&packageName=ynievespuntonetsurl%2Fomnipay-qvapay&pattern=architect&style=style_2&description=QvaPay+driver+for+the+Omnipay+PHP+payment+processing+library.&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg&widths=auto)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment processing library for PHP. This package implements PayPal support for Omnipay.
 
